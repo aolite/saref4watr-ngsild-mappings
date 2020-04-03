@@ -17,6 +17,8 @@
         "temperature": "https://saref.etsi.org/core/makesMeasurement",
         "depth": "https://saref.etsi.org/core/makesMeasurement",
         "operationSpace": "@nest",
-        "object": "@id"
+        "object": "@id", 
+        "geosp:value": "http://www.opengis.net/ont/geosparql#hasGeometry",
+        "Polygon": "http://www.opengis.net/ont/geosparql#" 
     }
 }
