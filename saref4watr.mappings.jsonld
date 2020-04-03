@@ -7,12 +7,14 @@
         "value": "https://saref.etsi.org/core/hasValue",
         "unitCode": "https://saref.etsi.org/core/isMeasuredIn",
         "observedAt": "https://saref.etsi.org/core/hasTimeStamp",
+        "createdAt": "https://saref.etsi.org/core/hasTimeStamp",
         "observedBy": "https://saref.etsi.org/core/measurementMadeBy",
         "Sensor": "https://saref.etsi.org/core/Sensor",
         "FishContainment": "https://saref.etsi.org/saref4watr/FishContainment",
         "depth": "https://saref.etsi.org/core/makesMeasurement",
         "fishNumber": "https://saref.etsi.org/core/makesMeasurement",
         "temperature": "https://saref.etsi.org/core/makesMeasurement",
-        "depth": "https://saref.etsi.org/core/makesMeasurement"
+        "depth": "https://saref.etsi.org/core/makesMeasurement",
+        "object": "@id"
     }
 }
