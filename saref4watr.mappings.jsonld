@@ -1,6 +1,7 @@
 {
     "@context":{
         "saref4watr": "https://saref.etsi.org/saref4watr/",
-        "saref": "https://saref.etsi.org/core/"
+        "saref": "https://saref.etsi.org/core/",
+        "FishContainment": "https://saref.etsi.org/saref4watr/FishContainment"
     }
 }
