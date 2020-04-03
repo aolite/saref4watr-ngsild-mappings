@@ -1,6 +1,6 @@
 {
    "id": "urn:ngsi-ld:FishContainment:HMRC-Tank-1",
-   "type": "FishContainment"],
+   "type": "FishContainment",
    "depth": {
       "type": ["Property", "Measurement"],
       "value": 100,

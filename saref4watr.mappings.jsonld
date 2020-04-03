@@ -6,7 +6,8 @@
         "FishContainment": "https://saref.etsi.org/saref4watr/FishContainment",
         "depth": {
             "@id": "https://saref.etsi.org/saref4watr/depth",
-            "@type": "WaterProperty"
+            "@type" : "@id",
+            "@container": "@id"
         }
     }
 }
