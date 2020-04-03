@@ -2,7 +2,7 @@
    "id":"urn:ngsi-ld:Sensor:013YFZ",
    "type":"Sensor",
    "monitors":{
-      "type":"Relationship",
+      "type":["Property", "Sensor"],
       "object":"urn:ngsi-ld:FishContainment:0012"
    },
    "brandName":{

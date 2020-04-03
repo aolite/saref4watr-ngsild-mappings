@@ -61,7 +61,7 @@
       "value": "dissolvedOxygenPPM"
     },
     "connectsTo": {
-      "type": "Relationship",
+      "type": ["Relationship", "Sensor"],
       "object": "urn:ngsi-ld:Device:HCMR-AQUABOX1"
     },
     "@context": [
@@ -79,7 +79,7 @@
       "value": "pH"
     },
     "connectsTo": {
-      "type": "Relationship",
+      "type": ["Relationship", "Sensor"],
       "object": "urn:ngsi-ld:Device:HCMR-AQUABOX1"
     },
     "@context": [
@@ -97,7 +97,7 @@
       "value": "redoxPotential"
     },
     "connectsTo": {
-      "type": "Relationship",
+      "type": ["Relationship", "Sensor"],
       "object": "urn:ngsi-ld:Device:HCMR-AQUABOX1"
     },
     "@context": [
@@ -115,7 +115,7 @@
       "value": "pHmV"
     },
     "connectsTo": {
-      "type": "Relationship",
+      "type": ["Relationship", "Sensor"],
       "object": "urn:ngsi-ld:Device:HCMR-AQUABOX1"
     },
     "@context": [
@@ -133,7 +133,7 @@
       "value": "conductivity"
     },
     "connectsTo": {
-      "type": "Relationship",
+      "type": ["Relationship", "Sensor"],
       "object": "urn:ngsi-ld:Device:HCMR-AQUABOX1"
     },
     "@context": [
@@ -151,7 +151,7 @@
       "value": "salinity"
     },
     "connectsTo": {
-      "type": "Relationship",
+      "type": ["Relationship", "Sensor"],
       "object": "urn:ngsi-ld:Device:HCMR-AQUABOX1"
     },
     "@context": [
@@ -169,7 +169,7 @@
       "value": "totalDissolvedSolids"
     },
     "connectsTo": {
-      "type": "Relationship",
+      "type": ["Relationship", "Sensor"],
       "object": "urn:ngsi-ld:Device:HCMR-AQUABOX1"
     },
     "@context": [
@@ -187,7 +187,7 @@
       "value": "turbidity"
     },
     "connectsTo": {
-      "type": "Relationship",
+      "type": ["Relationship", "Sensor"],
       "object": "urn:ngsi-ld:Device:HCMR-AQUABOX1"
     },
     "@context": [
@@ -205,7 +205,7 @@
       "value": "turbidityFNU"
     },
     "connectsTo": {
-      "type": "Relationship",
+      "type": ["Relationship", "Sensor"],
       "object": "urn:ngsi-ld:Device:HCMR-AQUABOX1"
     },
     "@context": [
@@ -223,7 +223,7 @@
       "value": "turbidityMG"
     },
     "connectsTo": {
-      "type": "Relationship",
+      "type": ["Relationship", "Sensor"],
       "object": "urn:ngsi-ld:Device:HCMR-AQUABOX1"
     },
     "@context": [
@@ -237,7 +237,7 @@
     "id": "urn:ngsi-ld:FishContainment:HCMR-TANK1",
     "type": "FishContainment",
     "temperature": {
-      "type": "Property",
+      "type": ["Property", "Measurement"],
       "value": 28.98,
       "unitCode": "N/A",
       "observedAt": "2020-01-16T13:44:38.000Z",
@@ -247,7 +247,7 @@
       }
     },
     "dissolvedOxygen": {
-      "type": "Property",
+      "type": ["Property", "Measurement"],
       "value": 128.69,
       "unitCode": "N/A",
       "observedAt": "2020-01-16T13:44:38.000Z",
@@ -257,7 +257,7 @@
       }
     },
     "dissolvedOxygenMG": {
-      "type": "Property",
+      "type": ["Property", "Measurement"],
       "value": 9.86,
       "unitCode": "N/A",
       "observedAt": "2020-01-16T13:44:38.000Z",
@@ -267,7 +267,7 @@
       }
     },
     "dissolvedOxygenPPM": {
-      "type": "Property",
+      "type": ["Property", "Measurement"],
       "value": 9.86,
       "unitCode": "N/A",
       "observedAt": "2020-01-16T13:44:38.000Z",
@@ -277,7 +277,7 @@
       }
     },
     "pH": {
-      "type": "Property",
+      "type": ["Property", "Measurement"],
       "value": 6.99,
       "unitCode": "N/A",
       "observedAt": "2020-01-16T13:44:38.000Z",
@@ -287,7 +287,7 @@
       }
     },
     "redoxPotential": {
-      "type": "Property",
+      "type": ["Property", "Measurement"],
       "value": 320.89,
       "unitCode": "N/A",
       "observedAt": "2020-01-16T13:44:38.000Z",
@@ -297,7 +297,7 @@
       }
     },
     "pHmV": {
-      "type": "Property",
+      "type": ["Property", "Measurement"],
       "value": 0,
       "unitCode": "2Z",
       "observedAt": "2020-01-16T13:44:38.000Z",
@@ -307,7 +307,7 @@
       }
     },
     "conductivity": {
-      "type": "Property",
+      "type": ["Property", "Measurement"],
       "value": 48537,
       "unitCode": "N/A",
       "observedAt": "2020-01-16T13:44:38.000Z",
@@ -317,7 +317,7 @@
       }
     },
     "salinity": {
-      "type": "Property",
+      "type": ["Property", "Measurement"],
       "value": 31.66,
       "unitCode": "N/A",
       "observedAt": "2020-01-16T13:44:38.000Z",
@@ -327,7 +327,7 @@
       }
     },
     "totalDissolvedSolids": {
-      "type": "Property",
+      "type": ["Property", "Measurement"],
       "value": 31651,
       "unitCode": "N/A",
       "observedAt": "2020-01-16T13:44:38.000Z",
@@ -337,7 +337,7 @@
       }
     },
     "turbidity": {
-      "type": "Property",
+      "type": ["Property", "Measurement"],
       "value": 7,
       "unitCode": "NTU",
       "observedAt": "2020-01-16T13:44:38.000Z",
@@ -347,7 +347,7 @@
       }
     },
     "turbidityFNU": {
-      "type": "Property",
+      "type": ["Property", "Measurement"],
       "value": 7,
       "unitCode": "FNU",
       "observedAt": "2020-01-16T13:44:38.000Z",
@@ -357,7 +357,7 @@
       }
     },
     "turbidityMG": {
-      "type": "Property",
+      "type": ["Property", "Measurement"],
       "value": 165,
       "unitCode": "M1",
       "observedAt": "2020-01-16T13:44:38.000Z",
@@ -381,7 +381,7 @@
       "value": "BIOCEANOR"
     },
     "monitors": {
-      "type": "Relationship",
+      "type": ["Relationship", "Sensor"],
       "object": "urn:ngsi-ld:FishContainment:HCMR-TANK1"
     },
     "calibrationDate": {
