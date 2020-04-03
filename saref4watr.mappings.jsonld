@@ -29,6 +29,7 @@
         "brandName":"https://saref.etsi.org/core/hasManufacturer",
         "calibrationDate":"https://saref.etsi.org/core/hasTimeStamp",
         "location": "https://purl.org/geojson/vocab#geometry",
-        "deviceParameter":"https://saref.etsi.org/core/measuresProperty"
+        "deviceParameter":"https://saref.etsi.org/core/measuresProperty",
+        "connectsTo": "https://saref.etsi.org/core/hasSubSystem"
     }
 }

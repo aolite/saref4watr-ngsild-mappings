@@ -24,7 +24,7 @@
       }
    },
    "deviceParameter":{
-      "type":"Property",
+      "type":["Property", "WaterProperty"],
       "value":"Dissolved Oxygen"
     },
    "@context": [
