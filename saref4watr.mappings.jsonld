@@ -23,7 +23,7 @@
         "Polygon": "hhttps://purl.org/geojson/vocab#Polygon", 
         "coordinates": {
             "@container": "@list",
-            "@id": "geojson:coordinates"
+            "@id": "https://purl.org/geojson/vocab#coordinates"
         },
     }
 }
