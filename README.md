@@ -1,0 +1,1 @@
+# saref4watr-ngsild-mappings
