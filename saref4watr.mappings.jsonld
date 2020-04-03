@@ -2,7 +2,8 @@
     "@context":{
         "s4watr": "https://saref.etsi.org/saref4watr/",
         "saref": "https://saref.etsi.org/core/",
-        "geosp": "http://www.opengis.net/ont/geosparql#",
+        "geosp": "https://purl.org/geojson/vocab#",
+        "sf": "http://www.opengis.net/ont/sf#",
         "WaterProperty": "https://saref.etsi.org/saref4watr/WaterProperty",
         "Measurement": "https://saref.etsi.org/core/Measurement",
         "value": "https://saref.etsi.org/core/hasValue",
@@ -18,6 +19,11 @@
         "depth": "https://saref.etsi.org/core/makesMeasurement",
         "operationSpace": "@nest",
         "object": "@id", 
-        "Polygon": "http://www.opengis.net/ont/geosparql#Polygon" 
+        "geometry": "https://purl.org/geojson/vocab#hasgGeometry",
+        "Polygon": "hhttps://purl.org/geojson/vocab#Polygon", 
+        "coordinates": {
+            "@container": "@list",
+            "@id": "geojson:coordinates"
+        },
     }
 }
