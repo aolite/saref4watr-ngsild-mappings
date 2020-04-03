@@ -1,0 +1,6 @@
+{
+    "@context":{
+        "saref4watr": "https://saref.etsi.org/saref4watr/",
+        "saref": "https://saref.etsi.org/core/"
+    }
+}

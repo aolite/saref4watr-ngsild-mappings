@@ -1,0 +1,62 @@
+{
+   "id": "urn:ngsi-ld:FishContainment:0012",
+   "type": ["FishContainment", "saref4watr:FishContainment"],
+   "depth": {
+      "type": "Property",
+      "value": 100,
+      "unitCode": "m"
+   },
+   "fishNumber": {
+      "type": "Property",
+      "value": "100",
+      "observedAt": "2019-10-26T21:32:52+02:00",
+      "observedBy": {
+         "type": "Relationship",
+         "object": "urn:ngsi-ld:Sensor:013YFZ"
+      }
+   },
+   "temperature": {
+      "type": "Property",
+      "value": 22.2,
+      "unitCode": "CEL",
+      "observedAt": "2019-10-26T21:32:52+02:00",
+      "observedBy": {
+         "type": "Relationship",
+         "object": "urn:ngsi-ld:Sensor:013YFX"
+      }
+   },
+   "createdAt": "2018-10-26T21:32:52+02:00",
+   "operationSpace": {
+      "type": "GeoProperty",
+      "value": {
+         "type": "Polygon",
+         "coordinates": [
+            [
+               100.0,
+               0.0
+            ],
+            [
+               101.0,
+               0.0
+            ],
+            [
+               101.0,
+               1.0
+            ],
+            [
+               100.0,
+               1.0
+            ],
+            [
+               100.0,
+               0.0
+            ]
+         ]
+      }
+   },
+   "@context": [
+      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld",
+      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld",
+      "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+   ]
+}
