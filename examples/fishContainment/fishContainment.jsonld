@@ -21,7 +21,7 @@
       "unitCode": "CEL",
       "observedAt": "2019-10-26T21:32:52+02:00",
       "observedBy": {
-         "type": "Relationship",
+         "type": ["Relationship", "Sensor"],
          "object": "urn:ngsi-ld:Sensor:013YFX"
       }
    },
