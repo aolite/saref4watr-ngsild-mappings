@@ -3,6 +3,7 @@
         "s4watr": "https://saref.etsi.org/saref4watr/",
         "saref": "https://saref.etsi.org/core/",
         "WaterProperty": "https://saref.etsi.org/saref4watr/WaterProperty",
+        "Measurement": "https://saref.etsi.org/core/Measurement",
         "value": "https://saref.etsi.org/core/hasValue",
         "unitCode": "https://saref.etsi.org/core/measuredIn",
         "FishContainment": "https://saref.etsi.org/saref4watr/FishContainment",
