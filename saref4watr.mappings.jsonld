@@ -6,17 +6,9 @@
         "value": "saref:hasValue",
         "unitCode": "saref:measuredIn",
         "FishContainment": "s4watr:FishContainment",
-        "depth": {
-            "@id": "saref:makesMeasurement",
-        },
-        "fishNumber": {
-            "@id": "saref:makesMeasurement",
-        },
-        "temperature": {
-            "@id": "saref:makesMeasurement",
-        },
-        "depth": {
-            "@id": "saref:makesMeasurement",
-        }
+        "depth": "saref:makesMeasurement",
+        "fishNumber": "saref:makesMeasurement",
+        "temperature": "saref:makesMeasurement",
+        "depth": "saref:makesMeasurement",
     }
 }
