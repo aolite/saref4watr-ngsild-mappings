@@ -3,12 +3,12 @@
         "s4watr": "https://saref.etsi.org/saref4watr/",
         "saref": "https://saref.etsi.org/core/",
         "WaterProperty": "https://saref.etsi.org/saref4watr/WaterProperty",
-        "value": "saref:hasValue",
-        "unitCode": "saref:measuredIn",
-        "FishContainment": "s4watr:FishContainment",
-        "depth": "saref:makesMeasurement",
-        "fishNumber": "saref:makesMeasurement",
-        "temperature": "saref:makesMeasurement",
-        "depth": "saref:makesMeasurement"
+        "value": "https://saref.etsi.org/core/hasValue",
+        "unitCode": "https://saref.etsi.org/core/measuredIn",
+        "FishContainment": "https://saref.etsi.org/saref4watr/FishContainment",
+        "depth": "https://saref.etsi.org/core/makesMeasurement",
+        "fishNumber": "https://saref.etsi.org/core/makesMeasurement",
+        "temperature": "https://saref.etsi.org/core/makesMeasurement",
+        "depth": "https://saref.etsi.org/core/makesMeasurement"
     }
 }
