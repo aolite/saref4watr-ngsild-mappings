@@ -19,6 +19,6 @@
         "operationSpace": "@nest",
         "object": "@id", 
         "geosp:value": "http://www.opengis.net/ont/geosparql#hasGeometry",
-        "Polygon": "http://www.opengis.net/ont/geosparql#" 
+        "Polygon": "http://www.opengis.net/ont/geosparql#Polygon" 
     }
 }
