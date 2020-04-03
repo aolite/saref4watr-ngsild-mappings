@@ -24,6 +24,6 @@
         "coordinates": {
             "@container": "@list",
             "@id": "https://purl.org/geojson/vocab#coordinates"
-        },
+        }
     }
 }
