@@ -16,7 +16,7 @@
         "fishNumber": "https://saref.etsi.org/core/makesMeasurement",
         "temperature": "https://saref.etsi.org/core/makesMeasurement",
         "depth": "https://saref.etsi.org/core/makesMeasurement",
-        "operationSpace": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+        "operationSpace": "@nest",
         "object": "@id"
     }
 }
