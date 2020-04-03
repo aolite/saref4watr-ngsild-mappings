@@ -1,13 +1,13 @@
 {
-   "id": "urn:ngsi-ld:FishContainment:0012",
-   "type": ["FishContainment", "saref4watr:FishContainment"],
+   "id": "urn:ngsi-ld:FishContainment:HMRC-Tank-1",
+   "type": "FishContainment"],
    "depth": {
-      "type": ["Property", ""],
+      "type": ["Property", "Measurement"],
       "value": 100,
       "unitCode": "m"
    },
    "fishNumber": {
-      "type": "Property",
+      "type": ["Property", "Measurement"],
       "value": "100",
       "observedAt": "2019-10-26T21:32:52+02:00",
       "observedBy": {

@@ -1,7 +1,12 @@
 {
     "@context":{
-        "saref4watr": "https://saref.etsi.org/saref4watr/",
+        "s4watr": "https://saref.etsi.org/saref4watr/",
         "saref": "https://saref.etsi.org/core/",
-        "FishContainment": "https://saref.etsi.org/saref4watr/FishContainment"
+        "WaterProperty": "https://saref.etsi.org/saref4watr/WaterProperty",
+        "FishContainment": "https://saref.etsi.org/saref4watr/FishContainment",
+        "depth": {
+            "@id": "https://saref.etsi.org/saref4watr/depth",
+            "@type": "WaterProperty"
+        }
     }
 }
