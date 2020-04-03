@@ -18,7 +18,6 @@
         "depth": "https://saref.etsi.org/core/makesMeasurement",
         "operationSpace": "@nest",
         "object": "@id", 
-        "geosp:value": "http://www.opengis.net/ont/geosparql#hasGeometry",
         "Polygon": "http://www.opengis.net/ont/geosparql#Polygon" 
     }
 }
