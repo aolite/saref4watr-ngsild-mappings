@@ -19,11 +19,16 @@
         "depth": "https://saref.etsi.org/core/makesMeasurement",
         "operationSpace": "@nest",
         "object": "@id", 
-        "geometry": "https://purl.org/geojson/vocab#hasgGeometry",
+        "geometry": "https://purl.org/geojson/vocab#geometry",
         "Polygon": "hhttps://purl.org/geojson/vocab#Polygon", 
         "coordinates": {
             "@container": "@list",
             "@id": "https://purl.org/geojson/vocab#coordinates"
-        }
+        },
+        "monitors": "https://saref.etsi.org/core/hasSubSystem",
+        "brandName":"https://saref.etsi.org/core/hasManufacturer",
+        "calibrationDate":"https://saref.etsi.org/core/hasTimeStamp",
+        "location": "https://purl.org/geojson/vocab#geometry",
+        "deviceParameter":"https://saref.etsi.org/core/measuresProperty"
     }
 }
