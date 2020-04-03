@@ -4,7 +4,7 @@
         "saref": "https://saref.etsi.org/core/",
         "WaterProperty": "https://saref.etsi.org/saref4watr/WaterProperty",
         "value": "saref:hasValue",
-        "unitCode": "saref:measuredIn"
+        "unitCode": "saref:measuredIn",
         "FishContainment": "s4watr:FishContainment",
         "depth": {
             "@id": "saref:makesMeasurement",
