@@ -9,6 +9,6 @@
         "depth": "saref:makesMeasurement",
         "fishNumber": "saref:makesMeasurement",
         "temperature": "saref:makesMeasurement",
-        "depth": "saref:makesMeasurement",
+        "depth": "saref:makesMeasurement"
     }
 }
